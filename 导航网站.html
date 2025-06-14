@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>导航网站</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: "Microsoft YaHei", sans-serif;
+            background: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .nav-section {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .nav-section h2 {
+            color: #333;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        
+        .nav-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 10px 0;
+        }
+        
+        .nav-item {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #333;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-item:hover {
+            background: #e9ecef;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-section">
+            <h2>常用工具</h2>
+            <div class="nav-links">
+                <a href="https://www.baidu.com" class="nav-item" target="_blank">百度</a>
+                <a href="https://www.google.com" class="nav-item" target="_blank">谷歌</a>
+                <a href="https://www.github.com" class="nav-item" target="_blank">GitHub</a>
+                <a href="https://www.bilibili.com" class="nav-item" target="_blank">哔哩哔哩</a>
+            </div>
+        </div>
+        
+        <div class="nav-section">
+            <h2>学习资源</h2>
+            <div class="nav-links">
+                <a href="https://www.w3school.com.cn" class="nav-item" target="_blank">W3School</a>
+                <a href="https://www.runoob.com" class="nav-item" target="_blank">菜鸟教程</a>
+                <a href="https://www.imooc.com" class="nav-item" target="_blank">慕课网</a>
+                <a href="https://www.zhihu.com" class="nav-item" target="_blank">知乎</a>
+            </div>
+        </div>
+        
+        <div class="nav-section">
+            <h2>娱乐放松</h2>
+            <div class="nav-links">
+                <a href="https://www.douyin.com" class="nav-item" target="_blank">抖音</a>
+                <a href="https://www.iqiyi.com" class="nav-item" target="_blank">爱奇艺</a>
+                <a href="https://music.163.com" class="nav-item" target="_blank">网易云音乐</a>
+                <a href="https://www.douban.com" class="nav-item" target="_blank">豆瓣</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
